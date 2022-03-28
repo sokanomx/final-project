@@ -1,0 +1,23 @@
+/* DAY 8 STYLES */
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 2rem;
+}
+h1 {
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 33.3%;
+    background-color: lightsteelblue;
+    border: 0.06rem solid;
+    padding: .95rem;
+}
+
+.clearfix {
+    clear: both;
+    overflow: auto;
+}
