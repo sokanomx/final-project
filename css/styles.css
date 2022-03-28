@@ -1,3 +1,36 @@
+/* Nav list properties*/
+nav ul {
+    padding: 20px;
+}
+
+/* Nav Unorderlist by item properties */
+nav ul>li {
+    display: inline-block;
+    margin: 0.8rem .5rem 0 0;
+}
+/* Nav style for container */
+nav ul>li>a {
+    padding: .25rem 1rem;
+    color: inherit;
+    border: 2px solid rgb(121, 60, 219);
+    border-radius: 10px;
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+    color: rgb(79, 63, 223);
+  }
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    background: #3399ff;
+  }
+  main {
+    margin: 4rem 0;
+    height: 1000px;
+}
+
 /* DAY 8 STYLES */
 * {
     box-sizing: border-box;
